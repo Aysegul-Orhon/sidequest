@@ -140,29 +140,39 @@ def _matches_social(quest_social, preferred_social):
     return bool(preferred_social) and quest_social in (preferred_social, "either")
 
 
-def _diversify_by_activity_type(scored_items, limit):
+def _diversify_by_activity_type(scored_items, limit, max_score_drop=2):
     """
-    Return up to `limit` scored items while avoiding the same activity_type
-    back-to-back whenever possible.
+    Return up to `limit` scored items while keeping relevance first.
 
-    Each item is (score, quest, reasons). The input should already be ordered
-    by relevance. This function preserves relevance as much as possible: it
-    always picks the highest-ranked remaining item whose activity type differs
-    from the previous one; if that is impossible, it picks the highest-ranked
-    remaining item.
+    The input is already ordered by score. We only break up repetitive
+    back-to-back research suggestions when the alternative is still close in
+    score. This avoids long "Research... Research... Research..." blocks
+    without pushing clearly better suggestions below much weaker ones.
+    
+    Each item is (score, quest, reasons).
     """
     remaining = list(scored_items)
     final = []
     last_activity_type = None
+    repetitive_types = {"research"}
 
     while remaining and len(final) < limit:
+        best_score, best_quest, _ = remaining[0]
         chosen_index = 0
 
-        for index, item in enumerate(remaining):
-            quest = item[1]
-            if quest.activity_type != last_activity_type:
-                chosen_index = index
-                break
+        should_diversify = (
+            best_quest.activity_type == last_activity_type
+            and best_quest.activity_type in repetitive_types
+        )
+
+        if should_diversify:
+            for index, item in enumerate(remaining[1:], start=1):
+                score, quest, _ = item
+                score_drop = best_score - score
+
+                if quest.activity_type != last_activity_type and score_drop <= max_score_drop:
+                    chosen_index = index
+                    break
 
         chosen = remaining.pop(chosen_index)
         final.append(chosen)

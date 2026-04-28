@@ -127,6 +127,24 @@ function App() {
     setMessage(text);
   }
 
+  function handleInvalidToken() {
+    clearToken();
+    setToken("");
+    setMyQuests([]);
+    setPreferences(null);
+    setSuggestions([]);
+    showMessage("Session expired. Please log in again.");
+  }
+
+  function handleApiError(err) {
+    if (err.message && err.message.toLowerCase().includes("invalid token")) {
+      handleInvalidToken();
+      return;
+    }
+
+    showMessage(err.message);
+  }
+
   async function loadOptions() {
     const opts = await apiFetch("/options/");
     setOptions(opts);
@@ -156,19 +174,19 @@ function App() {
       setSuggestions(normalizeSuggestions(sugg));
       showMessage("Here is a fresh set of suggestions.");
     } catch (err) {
-      showMessage(err.message);
+      handleApiError(err);
     } finally {
       setLoading(false);
     }
   }
 
   useEffect(() => {
-    loadOptions().catch((err) => showMessage(err.message));
+    loadOptions().catch((err) => handleApiError(err));
   }, []);
 
   useEffect(() => {
     if (token) {
-      loadUserData(token).catch((err) => showMessage(err.message));
+      loadUserData(token).catch((err) => handleApiError(err));
     } else {
       setMyQuests([]);
       setPreferences(null);
@@ -191,7 +209,7 @@ function App() {
       setPassword("");
       showMessage(successMessage);
     } catch (err) {
-      showMessage(err.message);
+      handleApiError(err);
     } finally {
       setLoading(false);
     }
@@ -232,7 +250,7 @@ function App() {
       showMessage("Quest saved.");
       await loadUserData(token);
     } catch (err) {
-      showMessage(err.message);
+      handleApiError(err);
     } finally {
       setLoading(false);
     }
@@ -254,7 +272,7 @@ function App() {
       await loadUserData(token);
       showMessage(userQuest.done ? "Quest moved back to not done." : "Quest marked done.");
     } catch (err) {
-      showMessage(err.message);
+      handleApiError(err);
     } finally {
       setLoading(false);
     }
@@ -275,14 +293,14 @@ function App() {
       showMessage("Quest removed.");
       await loadUserData(token);
     } catch (err) {
-      showMessage(err.message);
+      handleApiError(err);
     } finally {
       setLoading(false);
     }
   }
 
-  async function updatePreference(partial) {
-    if (!token) return;
+  async function updatePreference(partial, successMessage = "Preferences updated.") {
+    if (!token) return false;
 
     setLoading(true);
     setMessage("");
@@ -297,27 +315,30 @@ function App() {
       setPreferences(updated);
       const sugg = await apiFetch("/suggestions/?limit=20", { token });
       setSuggestions(normalizeSuggestions(sugg));
-      showMessage("Preferences updated.");
+      showMessage(successMessage);
+      return true;
     } catch (err) {
-      showMessage(err.message);
+      handleApiError(err);
+      return false;
     } finally {
       setLoading(false);
     }
   }
 
   async function resetPreferences() {
-    await updatePreference({
-      location_type: null,
-      social_type: null,
-      cost_level: null,
-      effort_level: null,
-      duration_level: null,
-      categories: [],
-      seasons: [],
-      times_of_day: [],
-    });
-  
-    showMessage("Preferences reset.");
+    await updatePreference(
+      {
+        location_type: null,
+        social_type: null,
+        cost_level: null,
+        effort_level: null,
+        duration_level: null,
+        categories: [],
+        seasons: [],
+        times_of_day: [],
+      },
+      "Preferences reset."
+    );
   }
 
   function togglePreferenceList(field, value) {
