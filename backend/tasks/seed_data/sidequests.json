@@ -1,0 +1,1648 @@
+[
+    {
+      "title": "Sketch something you see from your window",
+      "activity_type": "creative",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "low",
+      "duration_level": "short",
+      "categories": [
+        "art"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "morning",
+        "afternoon"
+      ]
+    },
+    {
+      "title": "Take a 20-minute sunset walk",
+      "activity_type": "outdoor",
+      "location_type": "outdoor",
+      "cost_level": "free",
+      "social_type": "either",
+      "effort_level": "low",
+      "duration_level": "short",
+      "categories": [
+        "physical",
+        "adventure"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "times_of_day": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Learn a magic trick",
+      "activity_type": "skill",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "either",
+      "effort_level": "medium",
+      "duration_level": "short",
+      "categories": [
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Get a boating license",
+      "activity_type": "skill",
+      "location_type": "both",
+      "cost_level": "pricey",
+      "social_type": "solo",
+      "effort_level": "high",
+      "duration_level": "long",
+      "categories": [
+        "adventure",
+        "intellectual"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "times_of_day": []
+    },
+    {
+      "title": "Write a short horror story",
+      "activity_type": "writing",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "art",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "evening",
+        "night"
+      ]
+    },
+    {
+      "title": "Make a hype playlist",
+      "activity_type": "creative",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "low",
+      "duration_level": "short",
+      "categories": [
+        "art"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Take your first martial arts class",
+      "activity_type": "physical",
+      "location_type": "indoor",
+      "cost_level": "medium",
+      "social_type": "group",
+      "effort_level": "high",
+      "duration_level": "medium",
+      "categories": [
+        "physical"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Decorate a wall with photos, posters, or wallpaper",
+      "activity_type": "home",
+      "location_type": "indoor",
+      "cost_level": "cheap",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "art"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Rearrange your wardrobe and donate unused clothes",
+      "activity_type": "home",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "physical"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "morning",
+        "afternoon"
+      ]
+    },
+    {
+      "title": "Invent a new drink using ingredients from your fridge",
+      "activity_type": "food",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "low",
+      "duration_level": "short",
+      "categories": [
+        "art"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Watch a classic film and take notes like it is for a literature class",
+      "activity_type": "media",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "cultural",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "evening",
+        "night"
+      ]
+    },
+    {
+      "title": "Create your own fantasy world with politics, geography, norms, and history",
+      "activity_type": "writing",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "high",
+      "duration_level": "long",
+      "categories": [
+        "art",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Wash a car by hand",
+      "activity_type": "practical",
+      "location_type": "outdoor",
+      "cost_level": "cheap",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "short",
+      "categories": [
+        "physical"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "times_of_day": [
+        "morning",
+        "afternoon"
+      ]
+    },
+    {
+      "title": "Learn the basics of skateboarding",
+      "activity_type": "physical",
+      "location_type": "outdoor",
+      "cost_level": "medium",
+      "social_type": "solo",
+      "effort_level": "high",
+      "duration_level": "long",
+      "categories": [
+        "physical",
+        "adventure"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "times_of_day": [
+        "morning",
+        "afternoon",
+        "evening"
+      ]
+    },
+    {
+      "title": "Try ice skating",
+      "activity_type": "physical",
+      "location_type": "indoor",
+      "cost_level": "medium",
+      "social_type": "either",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "physical",
+        "adventure"
+      ],
+      "seasons": [
+        "winter"
+      ],
+      "times_of_day": []
+    },
+    {
+      "title": "Learn a new dance choreography",
+      "activity_type": "physical",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "art",
+        "physical"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Plant seeds or flowers",
+      "activity_type": "home",
+      "location_type": "outdoor",
+      "cost_level": "cheap",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "physical"
+      ],
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "times_of_day": [
+        "morning",
+        "afternoon"
+      ]
+    },
+    {
+      "title": "Learn to knit and start a comfy blanket",
+      "activity_type": "skill",
+      "location_type": "indoor",
+      "cost_level": "medium",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "long",
+      "categories": [
+        "art"
+      ],
+      "seasons": [
+        "fall",
+        "winter"
+      ],
+      "times_of_day": [
+        "evening",
+        "night"
+      ]
+    },
+    {
+      "title": "Make a family tree",
+      "activity_type": "research",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "either",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "cultural",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Try cooking a new recipe",
+      "activity_type": "food",
+      "location_type": "indoor",
+      "cost_level": "medium",
+      "social_type": "either",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "cultural"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Read a genre you have never tried before",
+      "activity_type": "reading",
+      "location_type": "indoor",
+      "cost_level": "cheap",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "intellectual",
+        "cultural"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Memorize a poem",
+      "activity_type": "reading",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "short",
+      "categories": [
+        "intellectual",
+        "cultural"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Paint rocks and leave them in public places",
+      "activity_type": "creative",
+      "location_type": "both",
+      "cost_level": "cheap",
+      "social_type": "either",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "art"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "times_of_day": [
+        "morning",
+        "afternoon"
+      ]
+    },
+    {
+      "title": "Create your own Kahoot and make friends compete",
+      "activity_type": "social",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "group",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "evening",
+        "night"
+      ]
+    },
+    {
+      "title": "Host a PowerPoint night about things you are or were obsessed with",
+      "activity_type": "social",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "group",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "art",
+        "cultural"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "evening",
+        "night"
+      ]
+    },
+    {
+      "title": "Make friendship bracelets",
+      "activity_type": "creative",
+      "location_type": "indoor",
+      "cost_level": "cheap",
+      "social_type": "either",
+      "effort_level": "low",
+      "duration_level": "short",
+      "categories": [
+        "art"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Go color hunting and photograph objects of one chosen color",
+      "activity_type": "outdoor",
+      "location_type": "both",
+      "cost_level": "free",
+      "social_type": "either",
+      "effort_level": "low",
+      "duration_level": "short",
+      "categories": [
+        "art",
+        "adventure"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "morning",
+        "afternoon",
+        "evening"
+      ]
+    },
+    {
+      "title": "Have a sunset picnic",
+      "activity_type": "outdoor",
+      "location_type": "outdoor",
+      "cost_level": "cheap",
+      "social_type": "either",
+      "effort_level": "low",
+      "duration_level": "medium",
+      "categories": [
+        "adventure",
+        "cultural"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "times_of_day": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Choose books for each other to read",
+      "activity_type": "social",
+      "location_type": "indoor",
+      "cost_level": "cheap",
+      "social_type": "group",
+      "effort_level": "low",
+      "duration_level": "short",
+      "categories": [
+        "intellectual",
+        "cultural"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Read the same book as a friend and discuss it",
+      "activity_type": "reading",
+      "location_type": "indoor",
+      "cost_level": "cheap",
+      "social_type": "group",
+      "effort_level": "medium",
+      "duration_level": "long",
+      "categories": [
+        "intellectual",
+        "cultural"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Get off public transit at a random stop and explore the area",
+      "activity_type": "outdoor",
+      "location_type": "outdoor",
+      "cost_level": "cheap",
+      "social_type": "either",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "adventure",
+        "cultural"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "times_of_day": [
+        "morning",
+        "afternoon",
+        "evening"
+      ]
+    },
+    {
+      "title": "Take a beginner dance class",
+      "activity_type": "physical",
+      "location_type": "indoor",
+      "cost_level": "medium",
+      "social_type": "group",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "art",
+        "physical"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Try a pottery class",
+      "activity_type": "creative",
+      "location_type": "indoor",
+      "cost_level": "medium",
+      "social_type": "either",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "art"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Interview your grandparents or an elder neighbor about their life",
+      "activity_type": "research",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "group",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "cultural",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "morning",
+        "afternoon",
+        "evening"
+      ]
+    },
+    {
+      "title": "Learn a beginner calisthenics move",
+      "activity_type": "physical",
+      "location_type": "both",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "high",
+      "duration_level": "medium",
+      "categories": [
+        "physical"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Start learning a new language",
+      "activity_type": "skill",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "long",
+      "categories": [
+        "intellectual",
+        "cultural"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Do sun tattoos with sunscreen",
+      "activity_type": "creative",
+      "location_type": "outdoor",
+      "cost_level": "cheap",
+      "social_type": "solo",
+      "effort_level": "low",
+      "duration_level": "short",
+      "categories": [
+        "art"
+      ],
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "times_of_day": [
+        "morning",
+        "afternoon"
+      ]
+    },
+    {
+      "title": "Make a fake petition and advertise it",
+      "activity_type": "social",
+      "location_type": "both",
+      "cost_level": "free",
+      "social_type": "group",
+      "effort_level": "low",
+      "duration_level": "short",
+      "categories": [
+        "art",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "afternoon",
+        "evening"
+      ]
+    },
+    {
+      "title": "Make a mini zine about a random topic",
+      "activity_type": "creative",
+      "location_type": "indoor",
+      "cost_level": "cheap",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "art",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Design a fake album cover for your current mood",
+      "activity_type": "creative",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "low",
+      "duration_level": "short",
+      "categories": [
+        "art"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Create a movie poster for your life this month",
+      "activity_type": "creative",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "art"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Make a collage from old magazines, receipts, or random papers",
+      "activity_type": "creative",
+      "location_type": "indoor",
+      "cost_level": "cheap",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "art"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Draw a map of an imaginary city",
+      "activity_type": "creative",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "art",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Redesign your room on paper before changing anything",
+      "activity_type": "home",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "short",
+      "categories": [
+        "art"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Make a tiny clay charm or keychain",
+      "activity_type": "creative",
+      "location_type": "indoor",
+      "cost_level": "cheap",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "art"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Try one page of blackout poetry",
+      "activity_type": "writing",
+      "location_type": "indoor",
+      "cost_level": "cheap",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "short",
+      "categories": [
+        "art",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "evening",
+        "night"
+      ]
+    },
+    {
+      "title": "Create a color palette from your favorite photo",
+      "activity_type": "creative",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "low",
+      "duration_level": "short",
+      "categories": [
+        "art"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Make a museum label for an ordinary object in your room",
+      "activity_type": "creative",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "low",
+      "duration_level": "short",
+      "categories": [
+        "art",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Write a letter from your future self",
+      "activity_type": "writing",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "short",
+      "categories": [
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "evening",
+        "night"
+      ]
+    },
+    {
+      "title": "Write a fake diary entry from a historical figure",
+      "activity_type": "writing",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "short",
+      "categories": [
+        "cultural",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Research an extinct animal and make a mini fact sheet",
+      "activity_type": "research",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Research an old empire you know almost nothing about",
+      "activity_type": "research",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "cultural",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Research the history of your neighborhood or city",
+      "activity_type": "research",
+      "location_type": "both",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "cultural",
+        "intellectual",
+        "adventure"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "morning",
+        "afternoon"
+      ]
+    },
+    {
+      "title": "Research a random philosophical concept",
+      "activity_type": "research",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Research a famous art movement and pick your favorite work",
+      "activity_type": "research",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "art",
+        "cultural",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Research a conspiracy theory from a critical perspective",
+      "activity_type": "research",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "intellectual",
+        "cultural"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Research the origin of a food you like",
+      "activity_type": "research",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "low",
+      "duration_level": "short",
+      "categories": [
+        "cultural",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Research one ancient ritual or tradition",
+      "activity_type": "research",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "cultural",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Research a historical scandal",
+      "activity_type": "research",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "cultural",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Research a random country's political system",
+      "activity_type": "research",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "cultural",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Research the history of a fashion trend",
+      "activity_type": "research",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "cultural",
+        "intellectual",
+        "art"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Research a famous shipwreck",
+      "activity_type": "research",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "adventure",
+        "cultural",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Write a one-page mystery story",
+      "activity_type": "writing",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "short",
+      "categories": [
+        "art",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "evening",
+        "night"
+      ]
+    },
+    {
+      "title": "Rewrite a fairy tale as horror",
+      "activity_type": "writing",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "short",
+      "categories": [
+        "art",
+        "cultural",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "evening",
+        "night"
+      ]
+    },
+    {
+      "title": "Create a fictional family tree for imaginary characters",
+      "activity_type": "creative",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "art",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Write a character profile for someone you saw in public",
+      "activity_type": "writing",
+      "location_type": "both",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "short",
+      "categories": [
+        "art",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "morning",
+        "afternoon",
+        "evening"
+      ]
+    },
+    {
+      "title": "Write a poem only using phrases from song lyrics",
+      "activity_type": "writing",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "short",
+      "categories": [
+        "art"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "evening",
+        "night"
+      ]
+    },
+    {
+      "title": "Invent a fictional country and write its national anthem",
+      "activity_type": "writing",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "high",
+      "duration_level": "medium",
+      "categories": [
+        "art",
+        "intellectual",
+        "cultural"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Write a fake Wikipedia page for an imaginary event",
+      "activity_type": "writing",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "art",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": []
+    },
+    {
+      "title": "Have a choose-each-other's-outfits day",
+      "activity_type": "social",
+      "location_type": "both",
+      "cost_level": "free",
+      "social_type": "group",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "art",
+        "cultural"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "morning",
+        "afternoon"
+      ]
+    },
+    {
+      "title": "Plan a fake vacation itinerary with friends",
+      "activity_type": "social",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "group",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "adventure",
+        "cultural",
+        "intellectual"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "afternoon",
+        "evening"
+      ]
+    },
+    {
+      "title": "Interview a friend as if they are famous",
+      "activity_type": "social",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "group",
+      "effort_level": "low",
+      "duration_level": "short",
+      "categories": [
+        "art",
+        "cultural"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "afternoon",
+        "evening",
+        "night"
+      ]
+    },
+    {
+      "title": "Try a beginner stretching routine for splits",
+      "activity_type": "physical",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "physical"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "morning",
+        "evening"
+      ]
+    },
+    {
+      "title": "Research a true crime case from a critical perspective",
+      "activity_type": "research",
+      "location_type": "indoor",
+      "cost_level": "free",
+      "social_type": "solo",
+      "effort_level": "medium",
+      "duration_level": "medium",
+      "categories": [
+        "intellectual",
+        "cultural"
+      ],
+      "seasons": [],
+      "times_of_day": [
+        "evening",
+        "night"
+      ]
+    },
+    
+        {
+          "title": "Host a themed dinner night with friends",
+          "activity_type": "social",
+          "location_type": "indoor",
+          "cost_level": "medium",
+          "social_type": "group",
+          "effort_level": "medium",
+          "duration_level": "medium",
+          "categories": ["social", "cultural"],
+          "seasons": [],
+          "times_of_day": ["evening", "night"]
+        },
+        {
+          "title": "Host a dress-for-the-wrong-occasion gathering",
+          "activity_type": "social",
+          "location_type": "indoor",
+          "cost_level": "cheap",
+          "social_type": "group",
+          "effort_level": "low",
+          "duration_level": "medium",
+          "categories": ["social", "creative"],
+          "seasons": [],
+          "times_of_day": ["evening", "night"]
+        },
+        {
+          "title": "Organize a board game night",
+          "activity_type": "social",
+          "location_type": "indoor",
+          "cost_level": "cheap",
+          "social_type": "group",
+          "effort_level": "low",
+          "duration_level": "medium",
+          "categories": ["social"],
+          "seasons": [],
+          "times_of_day": ["evening", "night"]
+        },
+        {
+          "title": "Have a teach-each-other-one-skill night",
+          "activity_type": "social",
+          "location_type": "indoor",
+          "cost_level": "free",
+          "social_type": "group",
+          "effort_level": "medium",
+          "duration_level": "medium",
+          "categories": ["social", "intellectual"],
+          "seasons": [],
+          "times_of_day": ["evening", "night"]
+        },
+        {
+          "title": "Host a mini trivia night",
+          "activity_type": "social",
+          "location_type": "indoor",
+          "cost_level": "free",
+          "social_type": "group",
+          "effort_level": "medium",
+          "duration_level": "medium",
+          "categories": ["social", "intellectual"],
+          "seasons": [],
+          "times_of_day": ["evening", "night"]
+        },
+        {
+          "title": "Try meditation",
+          "activity_type": "well-being",
+          "location_type": "indoor",
+          "cost_level": "free",
+          "social_type": "solo",
+          "effort_level": "low",
+          "duration_level": "short",
+          "categories": ["well-being"],
+          "seasons": [],
+          "times_of_day": ["morning", "evening", "night"]
+        },
+        {
+          "title": "Redesign a book cover you dislike",
+          "activity_type": "creative",
+          "location_type": "indoor",
+          "cost_level": "free",
+          "social_type": "solo",
+          "effort_level": "medium",
+          "duration_level": "medium",
+          "categories": ["creative", "art"],
+          "seasons": [],
+          "times_of_day": []
+        },
+        {
+            "title": "Light candles and take a bath",
+            "activity_type": "well-being",
+            "location_type": "indoor",
+            "cost_level": "free",
+            "social_type": "solo",
+            "effort_level": "low",
+            "duration_level": "short",
+            "categories": ["well-being"],
+            "seasons": ["fall", "winter"],
+            "times_of_day": ["evening", "night"]
+          },
+          
+            {
+              "title": "Watch an interesting TED talk",
+              "activity_type": "media",
+              "location_type": "indoor",
+              "cost_level": "free",
+              "social_type": "solo",
+              "effort_level": "low",
+              "duration_level": "short",
+              "categories": ["intellectual"],
+              "seasons": [],
+              "times_of_day": []
+            },
+            {
+              "title": "Research Greek mythology",
+              "activity_type": "research",
+              "location_type": "indoor",
+              "cost_level": "free",
+              "social_type": "solo",
+              "effort_level": "medium",
+              "duration_level": "medium",
+              "categories": ["cultural", "intellectual"],
+              "seasons": [],
+              "times_of_day": []
+            },
+            {
+              "title": "Learn the basics of palmistry",
+              "activity_type": "research",
+              "location_type": "indoor",
+              "cost_level": "free",
+              "social_type": "solo",
+              "effort_level": "low",
+              "duration_level": "short",
+              "categories": ["cultural", "intellectual"],
+              "seasons": [],
+              "times_of_day": []
+            },
+            
+                {
+                  "title": "Plan treasure hunts in groups and compete",
+                  "activity_type": "outdoor",
+                  "location_type": "both",
+                  "cost_level": "free",
+                  "social_type": "group",
+                  "effort_level": "medium",
+                  "duration_level": "medium",
+                  "categories": ["adventure", "social", "creative"],
+                  "seasons": ["spring", "summer", "fall"],
+                  "times_of_day": ["morning", "afternoon"]
+                },
+                {
+                  "title": "Make a short drama movie",
+                  "activity_type": "creative",
+                  "location_type": "both",
+                  "cost_level": "free",
+                  "social_type": "group",
+                  "effort_level": "high",
+                  "duration_level": "medium",
+                  "categories": ["creative", "art", "social"],
+                  "seasons": [],
+                  "times_of_day": ["afternoon", "evening"]
+                },
+                {
+                  "title": "Host a tiny awards ceremony",
+                  "activity_type": "social",
+                  "location_type": "indoor",
+                  "cost_level": "cheap",
+                  "social_type": "group",
+                  "effort_level": "medium",
+                  "duration_level": "medium",
+                  "categories": ["social", "creative"],
+                  "seasons": [],
+                  "times_of_day": ["evening", "night"]
+                },
+                {
+                  "title": "Create a secret code alphabet and write a hidden message",
+                  "activity_type": "creative",
+                  "location_type": "indoor",
+                  "cost_level": "free",
+                  "social_type": "solo",
+                  "effort_level": "medium",
+                  "duration_level": "short",
+                  "categories": ["creative", "intellectual"],
+                  "seasons": [],
+                  "times_of_day": []
+                },
+                    {
+                      "title": "Go on an architecture hunt and photograph balconies, doors, or windows",
+                      "activity_type": "outdoor",
+                      "location_type": "outdoor",
+                      "cost_level": "free",
+                      "social_type": "solo",
+                      "effort_level": "low",
+                      "duration_level": "short",
+                      "categories": ["adventure", "creative", "art"],
+                      "seasons": ["spring", "summer", "fall"],
+                      "times_of_day": ["morning", "afternoon", "evening"]
+                    },
+                    {
+                      "title": "Take a nature walk and identify five trees or flowers",
+                      "activity_type": "outdoor",
+                      "location_type": "outdoor",
+                      "cost_level": "free",
+                      "social_type": "solo",
+                      "effort_level": "medium",
+                      "duration_level": "medium",
+                      "categories": ["adventure", "well-being", "intellectual"],
+                      "seasons": ["spring", "summer", "fall"],
+                      "times_of_day": ["morning", "afternoon"]
+                    },
+                    {
+                      "title": "Walk until you find a street name you have never noticed before",
+                      "activity_type": "outdoor",
+                      "location_type": "outdoor",
+                      "cost_level": "free",
+                      "social_type": "solo",
+                      "effort_level": "low",
+                      "duration_level": "short",
+                      "categories": ["adventure", "well-being"],
+                      "seasons": ["spring", "summer", "fall"],
+                      "times_of_day": ["morning", "afternoon", "evening"]
+                    },
+                    {
+                      "title": "Find the quietest bench in your neighborhood",
+                      "activity_type": "outdoor",
+                      "location_type": "outdoor",
+                      "cost_level": "free",
+                      "social_type": "solo",
+                      "effort_level": "low",
+                      "duration_level": "short",
+                      "categories": ["well-being", "adventure"],
+                      "seasons": ["spring", "summer", "fall"],
+                      "times_of_day": ["morning", "afternoon", "evening"]
+                    },
+                    {
+                      "title": "Learn one basic boxing combination",
+                      "activity_type": "physical",
+                      "location_type": "both",
+                      "cost_level": "free",
+                      "social_type": "solo",
+                      "effort_level": "medium",
+                      "duration_level": "short",
+                      "categories": ["physical"],
+                      "seasons": [],
+                      "times_of_day": []
+                    },
+                    {
+                      "title": "Host a mini debate night with silly topics",
+                      "activity_type": "social",
+                      "location_type": "indoor",
+                      "cost_level": "free",
+                      "social_type": "group",
+                      "effort_level": "medium",
+                      "duration_level": "medium",
+                      "categories": ["social", "intellectual"],
+                      "seasons": [],
+                      "times_of_day": ["evening", "night"]
+                    },
+                    {
+                      "title": "Go to a bookstore and buy a book based on its first sentence",
+                      "activity_type": "reading",
+                      "location_type": "indoor",
+                      "cost_level": "medium",
+                      "social_type": "solo",
+                      "effort_level": "low",
+                      "duration_level": "short",
+                      "categories": ["intellectual", "cultural", "adventure"],
+                      "seasons": [],
+                      "times_of_day": ["morning", "afternoon", "evening"]
+                    },
+                        {
+                          "title": "Dance in your room to Bad Bunny",
+                          "activity_type": "physical",
+                          "location_type": "indoor",
+                          "cost_level": "free",
+                          "social_type": "solo",
+                          "effort_level": "medium",
+                          "duration_level": "short",
+                          "categories": ["well-being", "physical"],
+                          "seasons": [],
+                          "times_of_day": ["afternoon", "evening", "night"]
+                        },
+                        {
+                          "title": "Eat breakfast outside or near a window",
+                          "activity_type": "well-being",
+                          "location_type": "both",
+                          "cost_level": "free",
+                          "social_type": "solo",
+                          "effort_level": "low",
+                          "duration_level": "short",
+                          "categories": ["well-being"],
+                          "seasons": ["spring", "summer", "fall"],
+                          "times_of_day": ["morning"]
+                        },
+                        {
+                          "title": "Organize your phone photos into favorite-memory albums",
+                          "activity_type": "home",
+                          "location_type": "indoor",
+                          "cost_level": "free",
+                          "social_type": "solo",
+                          "effort_level": "low",
+                          "duration_level": "medium",
+                          "categories": ["well-being"],
+                          "seasons": [],
+                          "times_of_day": []
+                        },
+                        {
+                            "title": "Go on a no-phone car drive and pretend you are recording a podcast",
+                            "activity_type": "social",
+                            "location_type": "outdoor",
+                            "cost_level": "cheap",
+                            "social_type": "either",
+                            "effort_level": "low",
+                            "duration_level": "short",
+                            "categories": ["well-being", "creative", "social"],
+                            "seasons": [],
+                            "times_of_day": ["afternoon", "evening", "night"]
+                          },
+                            {
+                              "title": "Go to a café and write overheard dialogue like you are a spy",
+                              "activity_type": "writing",
+                              "location_type": "indoor",
+                              "cost_level": "medium",
+                              "social_type": "solo",
+                              "effort_level": "low",
+                              "duration_level": "short",
+                              "categories": ["creative", "intellectual"],
+                              "seasons": [],
+                              "times_of_day": ["morning", "afternoon", "evening"]
+                            },
+                            {
+                              "title": "Pretend you are an alien and document five human behaviors",
+                              "activity_type": "writing",
+                              "location_type": "both",
+                              "cost_level": "free",
+                              "social_type": "solo",
+                              "effort_level": "medium",
+                              "duration_level": "short",
+                              "categories": ["creative", "intellectual"],
+                              "seasons": [],
+                              "times_of_day": ["morning", "afternoon", "evening"]
+                            },
+                            {
+                              "title": "Make a wanted poster for your lost motivation",
+                              "activity_type": "creative",
+                              "location_type": "indoor",
+                              "cost_level": "free",
+                              "social_type": "solo",
+                              "effort_level": "low",
+                              "duration_level": "short",
+                              "categories": ["creative", "well-being", "art"],
+                              "seasons": [],
+                              "times_of_day": []
+                            },
+                            {
+                              "title": "Research Victorian mourning rituals",
+                              "activity_type": "research",
+                              "location_type": "indoor",
+                              "cost_level": "free",
+                              "social_type": "solo",
+                              "effort_level": "medium",
+                              "duration_level": "medium",
+                              "categories": ["cultural", "intellectual"],
+                              "seasons": [],
+                              "times_of_day": ["evening", "night"]
+                            },
+                            {
+                              "title": "Research the weirdest laws that ever existed",
+                              "activity_type": "research",
+                              "location_type": "indoor",
+                              "cost_level": "free",
+                              "social_type": "solo",
+                              "effort_level": "medium",
+                              "duration_level": "medium",
+                              "categories": ["cultural", "intellectual"],
+                              "seasons": [],
+                              "times_of_day": []
+                            },
+                            {
+                              "title": "Hold a funeral for a bad habit you want to abandon",
+                              "activity_type": "well-being",
+                              "location_type": "indoor",
+                              "cost_level": "free",
+                              "social_type": "solo",
+                              "effort_level": "medium",
+                              "duration_level": "short",
+                              "categories": ["well-being", "creative"],
+                              "seasons": [],
+                              "times_of_day": ["evening", "night"]
+                            },
+                            {
+                              "title": "Make a do-not-disturb, I-am-regenerating evening",
+                              "activity_type": "well-being",
+                              "location_type": "indoor",
+                              "cost_level": "cheap",
+                              "social_type": "solo",
+                              "effort_level": "low",
+                              "duration_level": "medium",
+                              "categories": ["well-being"],
+                              "seasons": [],
+                              "times_of_day": ["evening", "night"]
+                            },
+                            {
+                              "title": "Make a list of things that are not your problem anymore",
+                              "activity_type": "well-being",
+                              "location_type": "indoor",
+                              "cost_level": "free",
+                              "social_type": "solo",
+                              "effort_level": "low",
+                              "duration_level": "short",
+                              "categories": ["well-being"],
+                              "seasons": [],
+                              "times_of_day": ["evening", "night"]
+                            },
+                            {
+                                "title": "Use a corner of your house you usually ignore",
+                                "activity_type": "home",
+                                "location_type": "indoor",
+                                "cost_level": "free",
+                                "social_type": "solo",
+                                "effort_level": "low",
+                                "duration_level": "short",
+                                "categories": ["well-being", "home"],
+                                "seasons": [],
+                                "times_of_day": []
+                              }
+                          
+          
+      
+  ]
