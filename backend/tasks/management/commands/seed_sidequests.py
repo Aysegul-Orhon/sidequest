@@ -90,7 +90,16 @@ class Command(BaseCommand):
             else:
                 updated_count += 1
         
-        Category.objects.filter(sidequests__isnull=True, userpreference__isnull=True).delete()
+                # Remove old user-facing category that we no longer want.
+        old_home = Category.objects.filter(name="home").first()
+        if old_home:
+            for pref in old_home.userpreference_set.all():
+                pref.categories.remove(old_home)
+
+            for sidequest in old_home.sidequests.all():
+                sidequest.categories.remove(old_home)
+
+            old_home.delete()
 
         self.stdout.write(
             self.style.SUCCESS(
