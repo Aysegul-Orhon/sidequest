@@ -1638,7 +1638,7 @@
                                 "social_type": "solo",
                                 "effort_level": "low",
                                 "duration_level": "short",
-                                "categories": ["well-being", "home"],
+                                "categories": ["well-being"],
                                 "seasons": [],
                                 "times_of_day": []
                               }
