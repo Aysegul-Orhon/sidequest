@@ -333,18 +333,11 @@ p {
 }
 
 .meta,
-.score,
-.score-reasons,
 .empty {
   color: var(--muted);
   margin-bottom: 8px;
 }
 
-.score,
-.score-reasons {
-  font-size: 0.85rem;
-  margin-top: 8px;
-}
 
 .actions {
   display: flex;

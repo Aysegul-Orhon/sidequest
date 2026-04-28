@@ -557,10 +557,6 @@ function App() {
                     <h3>{quest.title}</h3>
                     <QuestMeta quest={quest} />
                     <TagList items={getQuestCategories(quest)} />
-                    {quest.score !== undefined && <p className="score">match score: {quest.score}</p>}
-                    {quest.score_reasons?.length > 0 && (
-                      <p className="score-reasons">Why: {quest.score_reasons.join("; ")}</p>
-                    )}
                   </div>
                   <button disabled={loading || savedSidequestIds.has(quest.id)} onClick={() => saveQuest(quest.id)}>
                     {savedSidequestIds.has(quest.id) ? "Saved" : "Save"}
