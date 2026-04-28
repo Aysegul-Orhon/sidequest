@@ -89,6 +89,8 @@ class Command(BaseCommand):
                 created_count += 1
             else:
                 updated_count += 1
+        
+        Category.objects.filter(sidequests__isnull=True, userpreference__isnull=True).delete()
 
         self.stdout.write(
             self.style.SUCCESS(
