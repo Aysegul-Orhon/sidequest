@@ -130,9 +130,24 @@ def options(request):
     return Response(data)
 
 
-def _matches_location(quest_location, preferred_location):
-    """If user prefers indoor, a quest marked both should still match."""
-    return bool(preferred_location) and quest_location in (preferred_location, "both")
+def _location_match_points(quest_location, preferred_location, exact_points=3, both_points=2):
+    """
+    Return location match points.
+
+    Exact match gets full points.
+    A quest marked "both" still matches indoor/outdoor preferences, but
+    gets slightly fewer points than an exact location match.
+    """
+    if not preferred_location:
+        return 0
+
+    if quest_location == preferred_location:
+        return exact_points
+
+    if quest_location == "both":
+        return both_points
+
+    return 0
 
 
 def _matches_social(quest_social, preferred_social):
@@ -232,9 +247,16 @@ def suggestions(request):
         score = 0
         reasons = []
 
-        if _matches_location(quest.location_type, pref.location_type):
-            score += weights["location"]
-            reasons.append(f"location +{weights['location']}")
+        location_points = _location_match_points(
+            quest.location_type,
+            pref.location_type,
+            exact_points=weights["location"],
+            both_points=weights["location"] - 1,
+        )
+
+        if location_points:
+            score += location_points
+            reasons.append(f"location +{location_points}")
 
         if pref.cost_level and quest.cost_level == pref.cost_level:
             score += weights["cost"]
